@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image"  src="9th-science-ptb.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel=”stylesheet” href=”css/bootstrap.css”>
+    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+
+  </head>
+<body class="bg-info-subtle">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fw-bold fs-6">
+        <div class="container-fluid">
+          <a class="navbar-brand bg-warning" style="font-family: Georgia, 'Times New Roman', Times, serif;" href="#">MyFavoriteBooks</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex w-50" role="search">
+              <input class="form-control mt-2 me-2 " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <button class="btn btn-primary me-1 ms-1 mb-2 mb-lg-0" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Login
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="row">
+                        <div class="modal-body text-center">
+                            <div class="col-md-4">
+                                <label for="validationCustomUsername" class="col-2 ms-3 me-3 form-label">Username</label>
+                                <div class="input-group has-validation">
+                                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                  <input type="text" class="col-2 ms-3 me-3 form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                  <div class="invalid-feedback">
+                                    Please type your username.
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <label for="inputPassword5" class=" col-2 ms-3 me-3form-label">Password</label>
+                                <div class=" col-2input-group has-validation">
+                                  <input type="text" class="col-2 ms-3 me-3 form-control" id=" col-2 inputPassword5" aria-describedby="passwordHelpBlock" required>
+                                  <div class="invalid-feedback">
+                                    Please type your username.
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        </div>
+                
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Signup</a>
+                </li>
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+    
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-vs-rides="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="../images/greatbooks.jpg" class="d-block w-100" style="object-fit:cover; height: 500px;" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="../images/greatbooks2.avif" class="d-block w-100" style="object-fit:cover; height: 500px;" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="../images/greatbooks3.jpg" class="d-block w-100" style="object-fit:cover; height: 500px;" alt="...">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-black"  aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        
+    <br>
+  <div class="container bg-body-secondary">
+    <center><H3 class="text-center">Flash Sale</H3>
+</div>
+
+  </div>
+  
+    <div class="container bg-body-secondary p-md-5 align-items-center">
+    <div class="row">
+      <div class="card ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/41AjQSNLaaL._AC_UF894,1000_QL80_.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/3d45c0488b06107c637d36161e88a47e.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/41ivNcvuS7L._AC_UF1000,1000_QL80_.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card  ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/02da5767de1ad5bb02a28293c201673e.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/02da5767de1ad5bb02a28293c201673e.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/02da5767de1ad5bb02a28293c201673e.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/02da5767de1ad5bb02a28293c201673e.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card  ms-1 me-1  mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/02da5767de1ad5bb02a28293c201673e.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card  ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/02da5767de1ad5bb02a28293c201673e.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      <div class="card ms-1 me-1 mb-3 col-2" style="width: 200px; height:380px;">
+        <img src="../images/02da5767de1ad5bb02a28293c201673e.jpg" style="width: 180px; height: 150px;" class="card-img-top mt-2" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-0 mb-0"><h6> College Algebra</h6>
+          <p class="card-text text-warning mb-0">₱500.00</p>
+          <p class="card-text mt-0 "><s>₱1000.00</s> -50%</p>
+          <a href="#" class="btn btn-primary mb-2 mt-0"><i class="fa fa fa-shopping-cart"></i> Add to cart</a>
+          <a href="#" class="btn btn-primary"><i class="fa fa fa-shopping-cart"></i> Buy now</a>
+        </div>
+      </div>
+      </div>
+      </div>
+    </center>
+    <div class="container bg-warning text-center"><b><h4>F E A T U R E S</h4></b></div>
+    <center>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-center"> 
+          <p><b> Image 1</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo qui, repellendus ducimus aliquam quam, est sit deleniti officia cum modi distinctio officiis, magnam recusandae perspiciatis pariatur nesciunt possimus eius culpa.</p> </div>
+          <div class="col-md-6 start-end"> 
+            <img src="../images/emotions_movies_header.jpg" class="w-100">
+            </div>
+            <div class="row">
+            <div class="col-md-6 start-end"> 
+              <img src="../images/emotions_movies_header.jpg" class="w-100">
+              </div>
+              <div class="col-md-6 d-flex align-items-center"> 
+          <p><b> Image 1</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo qui, repellendus ducimus aliquam quam, est sit deleniti officia cum modi distinctio officiis, magnam recusandae perspiciatis pariatur nesciunt possimus eius culpa.</p> </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-center"> 
+                <p><b> Image 1</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo qui, repellendus ducimus aliquam quam, est sit deleniti officia cum modi distinctio officiis, magnam recusandae perspiciatis pariatur nesciunt possimus eius culpa.</p> </div>
+                <div class="col-md-6 start-end"> 
+                  <img src="../images/emotions_movies_header.jpg" class="w-100">
+                  </div>
+    </center>
+    </div>
+    </div>
+  </div>
+
+  </div>
+
+</div> 
+<br>
+<center>
+<div class="iframe col-4 align-content-center">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30895.314755249623!2d121.03416260216014!3d14.546890684803744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c85ecfb59947%3A0x4eda767d64abbacb!2sAcacia%20Rd.%2C%20Cembo!5e0!3m2!1sen!2sph!4v1692093764986!5m2!1sen!2sph" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe align-content-center"></iframe>
+</div>
+</center>
+<hr>
+  
+  <footer class="container mt-4 text-center">
+    <div class=”row”>
+    <div class=”col”>
+    <p class=”text-center”>Design by <a href=”#”>Emilie</a></p>
+    <p class=" m-0">Full Stack Development <a href=”#”>Batch WD83P</p></a>
+    <p>Assignment: HTML+CSS+BOOTSTRAP+GITHUB </p>
+    </div>
+    </div>
+   </footer>
+</body>
+</html>
